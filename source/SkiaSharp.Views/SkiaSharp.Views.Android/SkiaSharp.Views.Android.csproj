@@ -7,9 +7,9 @@
     <PackagingPlatform>monoandroid1.0</PackagingPlatform>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\binding\SkiaSharp.Android\SkiaSharp.Android.csproj" />
+    <Compile Include="..\SkiaSharp.Views.Shared\**\*.cs" Link="%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\SkiaSharp.Views.Shared\**\*.cs" Link="%(RecursiveDir)%(Filename)%(Extension)" />
+    <PackageReference Include="SkiaSharp" Version="1.68.1.1" />
   </ItemGroup>
 </Project>
