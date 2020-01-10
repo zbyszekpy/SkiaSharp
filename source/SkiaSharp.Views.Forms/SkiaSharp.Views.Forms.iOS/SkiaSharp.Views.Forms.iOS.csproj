@@ -7,7 +7,7 @@
     <PackagingGroup>SkiaSharp.Views.Forms</PackagingGroup>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.540366" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991250" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SkiaSharp.Views\SkiaSharp.Views.iOS\SkiaSharp.Views.iOS.csproj" />

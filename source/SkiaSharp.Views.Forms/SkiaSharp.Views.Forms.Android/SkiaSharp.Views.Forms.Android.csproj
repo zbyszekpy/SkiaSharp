@@ -9,7 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SkiaSharp" Version="1.68.1.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.540366" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991250" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SkiaSharp.Views\SkiaSharp.Views.Android\SkiaSharp.Views.Android.csproj" />
